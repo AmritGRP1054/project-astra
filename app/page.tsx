@@ -13,7 +13,7 @@ export default function HomePage() {
       if (!userId) {
         router.push("/sign-in");
       } else {
-        router.push("/tasking");
+        router.push("/home");
       }
     }
   }, [isLoaded, userId, router]);
