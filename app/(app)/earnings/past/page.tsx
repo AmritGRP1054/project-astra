@@ -15,7 +15,7 @@ const pastEarnings = Array(10)
   .map((item, index) => ({ ...item, id: index + 1 }));
 
 export default function PastEarningsPage() {
-  const router = useRouter();
+  //const router = useRouter();
 
   // API call would look like:
   // useEffect(() => {

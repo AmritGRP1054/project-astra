@@ -1,7 +1,7 @@
 "use client";
 
 import { ProjectList } from "@/components/ProjectList";
-import Footer from "@/components/Footer"; // Assuming the footer is in a `components/Footer` file
+//import Footer from "@/components/Footer"; // Assuming the footer is in a `components/Footer` file
 
 export default function TaskingPage() {
   return (
